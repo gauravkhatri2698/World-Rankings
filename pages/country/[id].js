@@ -28,8 +28,6 @@ const Country = ({ country }) => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    console.log(borders);
-
     return (
         <Layout title={country.name}>
             <div className={styles.container}>
